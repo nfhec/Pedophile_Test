@@ -6,7 +6,7 @@ public class Ages {
         for (int j = 1; j <= 5; j++) {
             ages[j] = RandomAges(); //have each array index have a different element(age)
         }
-    final int[] age_list = ages;
+        int[] age_list = ages;
         return age_list;
     }
     public static int RandomAges() { //generate random ages for partner selection
